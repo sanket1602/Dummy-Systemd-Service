@@ -1,4 +1,4 @@
-echo "Installing dummy systemd service..."
+echo "Installing Dummy systemd Service..."
 sleep 2
 
 sudo chmod +x dummy.sh
@@ -11,4 +11,4 @@ sudo cp dummy.service /etc/systemd/system/
 
 sudo systemctl daemon-reload
 
-echo "Dummy systemd service installed successfully!"
+echo "Dummy systemd Service Installed Successfully!"
