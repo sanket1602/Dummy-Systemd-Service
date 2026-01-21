@@ -1,4 +1,4 @@
-echo "Stopping and uninstalling dummy systemd service..."
+echo "Stopping and Uninstalling Dummy systemd Service..."
 sleep 2
 
 sudo systemctl stop dummy.service
@@ -10,4 +10,4 @@ sudo rm /var/log/dummy-service.log
 
 sudo systemctl daemon-reload
 
-echo "Dummy systemd service stopped and uninstalled successfully!"
+echo "Dummy systemd Service Stopped and Uninstalled Successfully!"
